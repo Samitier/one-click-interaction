@@ -1,8 +1,8 @@
 <template>
 <div class="main" :class="darkClass">
   <div class="container" @click="setWhite">
-    <img src="./assets/img/white_bkg.png" />
-    <img class="ship" src="./assets/img/white_ship.png" />
+    <img class="white-img" src="./assets/img/white_bkg.png" />
+    <img class="white-img ship" src="./assets/img/white_ship.png" />
     <img class="dark-img" src="./assets/img/dark_bkg.png" />
     <img class="dark-img ship" src="./assets/img/dark_ship.png" />
   </div>
@@ -50,6 +50,9 @@ html, body {
     }
     .dark-img {
       opacity 1
+    }
+    .white-img {
+      opacity: 0
     }
   }
 }
