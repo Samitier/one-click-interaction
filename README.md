@@ -1,5 +1,9 @@
 # one-click-interaction
 
+The website with the uploaded interaction is available at: https://the-ship.netlify.com/
+
+If you want to compile this, however, follow this steps:
+
 ## Project setup
 ```
 npm install
